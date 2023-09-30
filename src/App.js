@@ -67,9 +67,9 @@ function App() {
 
         {/* <p> Description : {weatherData?.weather[0]?.main}</p>   */}
         <div>
-          <WeatherData Value={weatherData?.visibility} text='visibility' img={wind}/>
-          <WeatherData Value={weatherData?.main?.humidity} text='Humadity' img={humidity}/>
-          <WeatherData Value={`${weatherData?.wind?.speed} Km/Hr`} text='Wind ' img={visibility}/>
+          <WeatherData Value={`${weatherData?.visibility} meters`} text='visibility' img={visibility}/>
+          <WeatherData Value={`${weatherData?.main?.humidity} °F`} text='Humadity' img={humidity}/>
+          <WeatherData Value={`${weatherData?.wind?.speed} Km/Hr`} text='Wind ' img={wind}/>
         </div>
       </div>
 
