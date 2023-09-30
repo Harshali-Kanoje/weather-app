@@ -1,0 +1,22 @@
+.weatherDataContainer {
+    background-color: rgba(255, 255, 255, 0.333);
+    border-radius: 10px;
+    padding: 10px;
+    margin:45px 10px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
+
+.weatherDataContainer img {
+    height: 70px;
+    width: 70px;
+    background-color: #ffffff87;
+    padding: 10px;
+    border-radius: 50%;
+}
