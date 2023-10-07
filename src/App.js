@@ -11,7 +11,7 @@ import humidity from './humidity.png'
 function App() {
 
   const [weatherData, setWeatherData] = useState({})
-  const [searchweather, setSearchweather] = useState('Pune');
+  const [searchweather, setSearchweather] = useState('Nagpur');
 
   async function loadWeatherData() {
     try {
