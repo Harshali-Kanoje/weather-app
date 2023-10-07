@@ -37,6 +37,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .weater-heading {
@@ -49,4 +50,39 @@
   display: flex;
   justify-content: space-between;
     height: 50px;
+}
+
+@media screen and (max-width:600px) {
+  .weater-heading {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .search-bar {
+    width: 300px;
+    padding: 3px;
+    margin:0 auto;
+  }
+
+  .head{
+    display: block;
+  }
+
+  .App {
+    padding: 20px;
+  }
+
+  .container h1{
+    display: none;
+  }
+
+  .cloud-img {
+    height: 168px;
+    margin-top: 50px;
+  }
+
+  .temp {
+    font-size: 35px;
+  }
 }
